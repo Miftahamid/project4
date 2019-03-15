@@ -1,15 +1,15 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+import logo from "../logo.svg";
 import "./App.css";
-import Home from "./Home/Home";
-import Map from "./Maps/Map";
+import Form from "../Form/Form";
+// import Pick from "../Pick/Pick";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Map />
-        <Home />
+        {/* <Pick /> */}
+        <Form />
       </div>
     );
   }
